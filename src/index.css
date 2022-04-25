@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-image: url("https://mocah.org/thumbs/4583961-the-avengers-minimalism-marvel-cinematic-universe-artwork.jpg");
+    background-size: cover;
+}
+
+.guess__container{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+img{
+    border: 1px solid transparent;
+    display: block;
+    border-radius: 1rem;
+    width: 50%;
+}
+p{
+    text-align: center;
+    background: red;
+    border-radius: 1rem;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+section{
+    text-align: center;
+    margin-top: 2rem;
+}
