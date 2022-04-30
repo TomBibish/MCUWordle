@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import {Container, Dropdown, FormControl} from "react-bootstrap";
-const Guess = () => {
+const GuessDummy = () => {
     const [guess, getGuess] = useState('')
     const url = 'https://mcuapi.herokuapp.com/api/v1/movies'
     useEffect(() =>{
@@ -111,4 +111,4 @@ const Guess = () => {
         </section>
     )
 }
-export default Guess
+export default GuessDummy

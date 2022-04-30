@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 body{
+    background-color: #3f3f3f
+}
+.container__body{
+    color: honeydew;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
-    background-image: url("https://mocah.org/thumbs/4583961-the-avengers-minimalism-marvel-cinematic-universe-artwork.jpg");
-    background-size: cover;
 }
 
 .guess__container{
+    margin: 0.5rem;
     justify-items: center;
     align-items: center;
     display: grid;
@@ -16,6 +18,7 @@ body{
     gap: 0.1rem;
     border: 1px solid black;
     border-radius: 1rem;
+    background: gainsboro;
 }
 img{
     border: 1px solid transparent;
@@ -23,11 +26,19 @@ img{
     border-radius: 1rem;
     width: 50%;
 }
-p{
+.wrong{
     text-align: center;
     background: red;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: white;
+    border: black 2px solid;
+}
+.right{
+   text-align: center;
+    background: green;
+    border-radius: 0.5rem;
+    color: black;
+    border: black 2px solid;
 }
 h1{
     text-align: center;
@@ -35,4 +46,14 @@ h1{
 section{
     text-align: center;
     margin-top: 2rem;
+}
+.button__purple {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
 }
